@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+/*Start of Body*/
+body {
+	background-color: #fafcfa;
+	margin: 0;
+	padding: 0;
+}
+/*End of Body*/
+
+/*Navbar*/
+.navbar {
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+	background: #73bd88;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.navbar .navbar-brand {
+	font-family: "Fredoka", sans-serif; !important;
+	color: #7d5123; !important;
+	font-weight: bold;
+}
+
+.navbar .nav-link {
+	color: #7d5123; !important;
+	padding: 0;
+	margin: 0;
+}
+
+.navbar .nav-link:hover {
+	color: bisque; !important;
+}
+
+/*Home*/
+.home {
+	font-family: "Urbanist", sans-serif; !important;
+	color: #7d5123; !important;
+/*	background: url('./images/library.jpeg');*/
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#introduction {
+	position: relative;
+	height: 100vh;
+	padding: 80px;
+}
+
+#introduction h1 {
+	margin-bottom: 1rem;
+	font-size: 3 rem;
+}
+
+#introduction h5 {
+	margin-top: 0.5rem;
+	font-size: 1.2rem;
+}
+
+/*#library {
+	height: 50%;
+	opacity:0.3;
+}*/
+
+
+/*Featured*/
+.card-img-top {
+	width: 370px;
+	height: 230px;
+}
+
+.custom-width {
+	width: 18rem;
+	margin: 0 auto;
+}
+.card {
+	display: inline-block;
+	margin: 13px;
+	padding: 0;
+	min-height: 350px;
+}
+
+.card-title {
+	font-family: "Fredoka", sans-serif; !important;
+}
+
+.card-text {
+	font-family: "Urbanist", sans-serif; !important;
+}
+
+.list-group-item {
+	margin-top: auto;
+}
+
+/*Categories*/
+#categories-section {
+	font-family: "Urbanist", sans-serif; !important;
+	color: #7d5123; !important;
+}
+
+/*about*/
+#about {
+	font-family: "Urbanist", sans-serif; !important;
+	color: #7d5123; !important;
+}
+
+#contact {
+	background: #73bd88;
+}
